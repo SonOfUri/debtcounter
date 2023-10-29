@@ -42,7 +42,7 @@ html {
 }
 
 .outline {
-  -webkit-text-stroke-width: 2px; /* 0.2px to rem */
+  -webkit-text-stroke-width: 0.2rem; /* 0.2px to rem */
   -webkit-text-stroke-color: #214f72;
 
   font-family: 'Roboto Mono', monospace;
