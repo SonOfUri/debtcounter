@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USDEBT</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-out">
+        <div class="container-in">
+            <div class="title outline">
+               <h3> USDEBT GAP</h3>
+            </div>
+            <div class="ticker">
+                <span>1</span> . <span>6</span> <span>T</span>
+            </div>
+            <div class="counter">
+                <div class="counter-title outline">
+                    US NATIONAL DEBT
+                </div>
+                <div class="countdown" id="output">
+                   
+                </div>
+            </div>
+            <div class="counter">
+                <div class="counter-title outline">
+                    US NATIONAL DEBT
+                </div>
+                <div class="countdown" id="output2">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script>
+      // Your first variable with the currency symbol
+      var number1 = "$33,636,013,783,185";
+    
+      // Reference to the first output div
+      var outputDiv1 = document.getElementById("output");
+    
+      // Loop through each character and create <span> elements for the first number
+      for (var i = 0; i < number1.length; i++) {
+        var character = number1.charAt(i);
+        var span = document.createElement("span");
+        span.textContent = character;
+        if (character === ',') {
+          span.id = 'remove';
+        }
+        outputDiv1.appendChild(span);
+      }
+    
+      // Your second variable with the currency symbol
+      var number2 = "32,000,000,000,000";
+    
+      // Reference to the second output div
+      var outputDiv2 = document.getElementById("output2");
+    
+      // Loop through each character and create <span> elements for the second number
+      for (var i = 0; i < number2.length; i++) {
+        var character = number2.charAt(i);
+        var span = document.createElement("span");
+        span.textContent = character;
+        if (character === ',') {
+          span.id = 'remove';
+        }
+        outputDiv2.appendChild(span);
+      }
+    </script>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+html{
+  font-size: 200%;
+}
+
+@media screen and (max-width: 1000px) {
+  html{
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html{
+    font-size: 85%;
+  }
+}
+
+.container-out{
+  position: fixed;
+  top: 50%; /* 50px to rem */
+  left: 50%; /* 50px to rem */
+  transform: translate(-50%, -50%); /* -50px to rem */
+
+  border: 0.1rem solid #112a40; /* 1px to rem */
+  border-radius: 0.5rem; /* 5px to rem */
+  padding: 1rem; /* 10px to rem */
+
+  background: #1c222e;
+}
+
+.container-in{
+  padding: 1rem; /* 10px to rem */
+  background: #1f2b37;
+
+  border: 0.1rem solid #202e3f; /* 1px to rem */
+  border-radius: 0.25rem; /* 2.5px to rem */
+
+  text-align: center;
+  color: #fff;
+}
+
+.outline{
+  -webkit-text-stroke-width: 0.02rem; /* 0.2px to rem */
+  -webkit-text-stroke-color: #214f72;
+}
+
+.ticker{
+  border: 0.1rem solid #14354b; /* 1px to rem */
+  border-radius: 0.1rem; /* 1px to rem */
+  padding: 0.25rem; /* 2.5px to rem */
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.ticker span{
+  background-color: #26272c;
+}
+
+.counter{
+  background-image: linear-gradient(to bottom, #16141f, #1b202c);
+  margin: 0.5rem; /* 5px to rem */
+  padding: 0.5rem; /* 5px to rem */
+  border: 0.1rem solid #172d3e; /* 1px to rem */
+  border-radius: 0.2rem; /* 2px to rem */
+  box-shadow: #63636333 0px 0.2rem 0.8rem 0px; /* 2px to rem, 8px to rem, 0.2px to rem */
+}
+
+.counter-title{
+  border: 0.01rem solid #fff; /* 0.1px to rem */
+  padding: 0.1rem; /* 1px to rem */
+  width: fit-content;
+  margin: 0.3rem auto;
+}
+
+.countdown{
+  background-color: #26272c;
+  border-radius: 0.1rem; /* 1px to rem */
+  width: fit-content;
+  margin: 0.02rem auto; /* 0.2px to rem */
+  padding: 0.5rem; /* 5px to rem */
+}
+
+.countdown span{
+  background-color: #363739;
+  margin: 0.1rem; /* 1px to rem */
+  padding: 0.2rem; /* 2px to rem */
+}
+
+#remove{
+  background: transparent !important;
+}
