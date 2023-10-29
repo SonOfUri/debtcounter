@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Orbitron&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 html {
   font-size: 200%;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 1000px) {
@@ -23,58 +23,71 @@ html {
   left: 50%; /* 50px to rem */
   transform: translate(-50%, -50%); /* -50px to rem */
 
-  border: 0.1rem solid #112a40; /* 1px to rem */
+  border: 0.1rem solid #112A40; /* 1px to rem */
   border-radius: 0.5rem; /* 5px to rem */
   padding: 1rem; /* 10px to rem */
 
-  background: #1c222e;
+  background: #1D232E;
 }
 
 .container-in {
   padding: 1rem; /* 10px to rem */
-  background: #1f2b37;
+  background: hsla(203, 95%, 22%, 0.1);
 
   border: 0.1rem solid #202e3f; /* 1px to rem */
   border-radius: 0.25rem; /* 2.5px to rem */
 
   text-align: center;
   color: #fff;
+
+  box-shadow: rgba(222, 222, 226, 0.107) 0px 7px 29px 0px;
+
 }
 
 .outline {
-  -webkit-text-stroke-width: 1px; /* 0.2px to rem */
+  -webkit-text-stroke-width: 1px; /* 0.1px to rem */
   -webkit-text-stroke-color: #214f72;
 
-  font-family: 'Roboto Mono', monospace;
+  text-shadow: 1px 1px #214f72;
+
+  font-family: 'Poppins', sans-serif;
 }
 
 .ticker {
   border: 0.1rem solid #14354b; /* 1px to rem */
   border-radius: 0.1rem; /* 1px to rem */
-  padding: 0.25rem; /* 2.5px to rem */
+  padding: 0.5rem; /* 2.5px to rem */
   width: fit-content;
-  height: fit-content;
   margin: auto;
 }
 
 .ticker span {
   background-color: #26272c;
+  font-size: 50px;
+  margin: 0.5rem;
+  padding: 7.5px 15px;
+}
+
+.remove2{
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .counter {
-  background-image: linear-gradient(to bottom, #16141f, #1b202c);
+  background-image: linear-gradient(to bottom, #1D232E, #1D232E);
   margin: 0.5rem; /* 5px to rem */
   padding: 0.5rem; /* 5px to rem */
   border: 0.1rem solid #172d3e; /* 1px to rem */
   border-radius: 0.2rem; /* 2px to rem */
-  box-shadow: #63636333 0px 0.2rem 0.8rem 0px; /* 2px to rem, 8px to rem, 0.2px to rem */
+  box-shadow: rgba(222, 222, 226, 0.094) 0px 7px 29px 0px;
 }
 
 .counter-title {
-  border: 0.01rem solid #fff; /* 0.1px to rem */
+  border: 0.01rem solid #ffffff2d; /* 0.1px to rem */
   padding: 0.1rem; /* 1px to rem */
   width: fit-content;
   margin: 0.3rem auto;
+  font-size: 20px;
 }
 
 .countdown {
@@ -89,8 +102,7 @@ html {
   background-color: #363739;
   margin: 0.1rem; /* 1px to rem */
   padding: 0.2rem; /* 2px to rem */
-  font-family: "Inter", sans-serif;
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #remove {
