@@ -1,20 +1,25 @@
-html{
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Orbitron&display=swap");
+
+html {
   font-size: 200%;
+
+  font-family: "Inter", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 @media screen and (max-width: 1000px) {
-  html{
+  html {
     font-size: 100%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  html{
+  html {
     font-size: 85%;
   }
 }
 
-.container-out{
+.container-out {
   position: fixed;
   top: 50%; /* 50px to rem */
   left: 50%; /* 50px to rem */
@@ -27,7 +32,7 @@ html{
   background: #1c222e;
 }
 
-.container-in{
+.container-in {
   padding: 1rem; /* 10px to rem */
   background: #1f2b37;
 
@@ -38,12 +43,12 @@ html{
   color: #fff;
 }
 
-.outline{
+.outline {
   -webkit-text-stroke-width: 0.02rem; /* 0.2px to rem */
   -webkit-text-stroke-color: #214f72;
 }
 
-.ticker{
+.ticker {
   border: 0.1rem solid #14354b; /* 1px to rem */
   border-radius: 0.1rem; /* 1px to rem */
   padding: 0.25rem; /* 2.5px to rem */
@@ -52,11 +57,11 @@ html{
   margin: auto;
 }
 
-.ticker span{
+.ticker span {
   background-color: #26272c;
 }
 
-.counter{
+.counter {
   background-image: linear-gradient(to bottom, #16141f, #1b202c);
   margin: 0.5rem; /* 5px to rem */
   padding: 0.5rem; /* 5px to rem */
@@ -65,14 +70,14 @@ html{
   box-shadow: #63636333 0px 0.2rem 0.8rem 0px; /* 2px to rem, 8px to rem, 0.2px to rem */
 }
 
-.counter-title{
+.counter-title {
   border: 0.01rem solid #fff; /* 0.1px to rem */
   padding: 0.1rem; /* 1px to rem */
   width: fit-content;
   margin: 0.3rem auto;
 }
 
-.countdown{
+.countdown {
   background-color: #26272c;
   border-radius: 0.1rem; /* 1px to rem */
   width: fit-content;
@@ -80,12 +85,12 @@ html{
   padding: 0.5rem; /* 5px to rem */
 }
 
-.countdown span{
+.countdown span {
   background-color: #363739;
   margin: 0.1rem; /* 1px to rem */
   padding: 0.2rem; /* 2px to rem */
 }
 
-#remove{
+#remove {
   background: transparent !important;
 }
